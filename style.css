@@ -1,0 +1,13 @@
+body
+{
+    background-color: #eceae1;
+}
+
+#redsox-button
+{
+    background-color:aquamarine;
+    color: red;
+    float: right;
+    margin-right: 70px;
+
+}
