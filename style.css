@@ -3,11 +3,7 @@ body
     background-color: #eceae1;
 }
 
-#redsox-button
+p
 {
-    background-color:aquamarine;
-    color: red;
-    float: right;
-    margin-right: 70px;
-
+    color: blue;
 }

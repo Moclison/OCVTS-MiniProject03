@@ -4,11 +4,21 @@
     
     </head>
     <body>
-       <form>
-        <label for="email" value="Email:">
-        <input type="email" id="email" placeholder="Enter your email" name="email" required>
-        <br><br>
-        <label for="card-number" value="Card Number:"></label>
-        <input type="text" id="card-number" name="card-number" placeholder="Enter card number" required> 
+       <form id="information">
+	    <label for="email" value="Email:">
+	    <input type="email" id="email" placeholder="Enter your email" name="email" required>
+	    <br><br>
+	    <label for="card-number" value="Card Number:">
+	    <input type="text" id="card-number" name="card-number" placeholder="Enter card number" required> 
+	    <br><br>
+	    <label for="expiration" value="Expiration:">Enter card expiration date:</label>
+	    <input type="date" id="expiration" name="expiration"
+	    placeholder="XX/XX">
+	    <br><br>
+	    <label for="security" value="Security: ">
+	    <input type="text" id="security" name="security" placeholder="XXX">
+	    <br><br>
+	    <input type="submit" value="Make Purchase">
+	</form>
     </body>
 </html>
